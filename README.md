@@ -1,10 +1,4 @@
-# Qarchitect Technical Assignment
-Thanks for applying! The steps of this interview process are as follows:
-1. Phone screening
-2. Technical assessment <- *this is where we are now!*
-3. Technical interview
-4. Cultural interview
-5. C-suite interview
+
 
 ## Technical Assignment Details
 This assessment is meant to imitate what a working environment is like. You are welcome to use all the tools available to you as you would in the role itself. However, should you progress to the next round of interviews you will be expected to perform an in depth explanation of your solutions.
@@ -101,4 +95,37 @@ The only requirement is an installation of Node, to be able to install dependenc
 * NPM (min version: 8.19.3)
 ```
 
-## Applicant Test Plan
+### Test Strategy
+
+
+
+#### 1. Unit Testing
+- Test small parts of the app like individual React components (e.g., `<TodoItem>`).
+- Use Jest to ensure the code behaves as expected.
+- Examples:
+  - The `<TodoItem>` component should display the correct text.
+  - The counter in the `<Footer>` should show the number of active items.
+
+#### 2. Integration Testing
+- Test how multiple components work together.
+- Verify that actions (like adding a todo) update the `<Footer>` and `<TodoList>` correctly.
+
+#### 3. End-to-End Testing
+- Simulate how users interact with the app using Playwright.
+- Test scenarios:
+  - Add a todo.
+  - Mark it complete.
+  - Delete it.
+  - Filter by "Active" or "Completed" items.
+
+#### 4. Security Testing
+- Ensure the app does not allow harmful inputs (e.g., `<script>` tags).
+- Test for XSS (Cross-Site Scripting) vulnerabilities.
+
+#### 5. Performance Testing
+- Use Playwright to measure page load times.
+- Ensure adding/deleting todos works quickly, even with a long list.
+
+#### 6. Automation
+- Integrate tests into a CI/CD pipeline (e.g., GitHub Actions).
+- Run tests automatically for every code change.
