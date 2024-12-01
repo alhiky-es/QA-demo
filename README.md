@@ -159,11 +159,11 @@ QA-ToDo-Assessment/
 ### Known Issues and Test Adjustments
 
 Some tests are currently failing due to known bugs in the application:
-
+````
 1.Footer Count Bug: The footer does not update the item count correctly when todos are removed.
 2.XSS Vulnerability: Malicious scripts are not properly sanitized.
 3.Footer Disappearance Bug: The footer disappears entirely when all todos are deleted, even though it should remain visible as per the requirements.
-
+````
 These tests have been temporarily skipped using `test.skip` in Playwright to allow the coverage report to be generated and the rest of the test suite to pass. The issues have been documented and reported, but fixing them was outside the scope of this assessment.
 
 
