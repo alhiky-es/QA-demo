@@ -1,0 +1,7 @@
+{
+  "all": true,
+  "reporter": ["text", "html"],
+  "extension": [".ts", ".js"],
+  "include": ["tests/**/*"],
+  "exclude": ["node_modules/**", "dist/**"]
+}

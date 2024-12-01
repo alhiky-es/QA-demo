@@ -11,7 +11,8 @@
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack serve --open --config webpack.dev.js",
     "serve": "http-server ./dist -p 7002 -c-1 --cors",
-    "test": "nyc --reporter=lcov --reporter=text-summary npx playwright test"
+    
+    "test" : "nyc --reporter=html --reporter=text npx playwright test"
   },
   "devDependencies": {
     "@babel/core": "^7.21.0",
