@@ -29,3 +29,9 @@ jobs:
       # Step 4: Run Playwright tests
       - name: Run Playwright Tests
         run: npx playwright test
+      # Step 5: Upload coverage reports
+        - name: Upload coverage report
+          uses: actions/upload-artifact@v3
+          with:
+            name: coverage-report
+            path: ./coverage
