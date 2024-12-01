@@ -109,7 +109,7 @@ User Feedback: Use E2E tests to simulate real user interactions and prioritize f
 Updated Folder Structure for Tests
 The test structure has been organized into categories to reflect the updated strategy:
 
-
+````
 QA-ToDo-Assessment/
 ├── .git/                        # Git version control metadata
 ├── .github/                     # GitHub-related workflows and configurations
@@ -154,7 +154,7 @@ QA-ToDo-Assessment/
 ├── playwright.config.ts         # Playwright configuration
 ├── README.md                    # Project documentation
 └── .nycrc                        # NYC configuration for coverage reporting
-
+````
 
 ### Known Issues and Test Adjustments
 
