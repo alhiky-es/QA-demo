@@ -1,35 +1,4 @@
 
-
-## Technical Assignment Details
-This assessment is meant to imitate what a working environment is like. You are welcome to use all the tools available to you as you would in the role itself. However, should you progress to the next round of interviews you will be expected to perform an in depth explanation of your solutions.
-
-We do not want this to take any more of your time than necessary, so please do yourself a favor and set a maximum 3 hour time limit. 
-
-We have created our own version of TODO MVC. It is the same as the regular one, but we've added a few bugs.
-
-There are 3 main pieces to the homework. Each is described in more detail further in this doc.
-
-3 Pieces of the assignment:
-
-1. Create a test strategy for TODO MVC
-2. Help update the existing Playwright tests as well as create new ones consistent with your testing strategy
-3. Find a few of the bugs we have purposely created in TODO MVC and submit bug reports for each using GitHub issues on your personal repo
-
-## Submission Details
-1. To keep your work private from other applicants, pull this repo and create a [mirror](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) in your personal GitHub account
-2. Add your changes to the test plan, Playwright tests, and bugs reported in your Github issues
-3. When you are ready to share, invite nate8282, sowardskimberly, matthewstclaire, dkarter, GibbyPDQ, JasonNoonan, Nickjgniklu, and jason-amick to your repo. Send an email to Jenna letting her know you are ready to have your work reviewed
-
-## Set up TODO MVC
-
-1. Clone this repo and create a [mirror](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) in your personal GitHub account of this repo you are reading now - https://github.com/pdqcom/QA-ToDo-Assessment
-2. Navigate your terminal to the repo
-3. In your terminal run `npm install` - set up the dependencies
-4. In your terminal run `npm run serve` - run the program locally on your machine
-5. To run Playwright you might need to install Playwright. While in your project directory navigate to the tests folder and run `npx playwright install`
-6. To run the Playright UI run `npx playwright test --ui`
-
-
 ### 1. Create a Test Strategy
 
 #### Product Requirements
